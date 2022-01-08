@@ -107,6 +107,24 @@ export const ProjectLiveLink = styled.a`
   }
 `;
 
+export const ProjectTechStack = styled.a`
+position: absolute;
+  bottom: 2rem;
+  left: 3rem;
+  color: ${({ theme }) => theme.color.light};
+  font-size: 14px;
+  ${Flex}
+
+  ${LinkName}::after {
+    ${HoverStyle}
+  }
+
+  ${LinkName}:hover::after {
+    width: 100%;
+  }
+`;
+
+
 export const ProjectCard = styled.article`
   background: #fff;
   width: 40rem;

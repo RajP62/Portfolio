@@ -17,6 +17,7 @@ import {SiMongodb,SiRedis} from "react-icons/si";
 import {FcLinux} from "react-icons/fc";
 import Mongo from "../../assets/technologies/MongoImg.jpg";
 import Redis from "../../assets/technologies/redis.webp";
+import Redux from "../../assets/technologies/redux.png";
 import Linux from "../../assets/technologies/linux.jpg";
 
 export const iconsData = [
@@ -24,66 +25,85 @@ export const iconsData = [
     id: 1,
     icon: html5,
     name: "HTML5",
+    href: "https://www.w3.org/html/"
   },
   {
     id: 2,
     icon: css3,
     name: "CSS3",
+    href: "https://www.w3schools.com/css/"
   },
   {
     id: 3,
     icon: javascript,
     name: "JavaScript",
+    href:"https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   {
     id: 5,
     icon: reactjs,
     name: "React JS",
+    href:"https://reactjs.org/"
   },
   {
     id: 6,
-    icon: Mongo,
-    name: "MongoDb",
+    icon: Redux,
+    name: "Redux",
+    href: "https://redux.js.org/"
   },
   {
     id: 7,
-    icon: Redis,
-    name: "Redis",
+    icon: Mongo,
+    name: "MongoDb",
+    href: "https://www.mongodb.com/"
   },
   {
     id: 8,
-    icon: Linux,
-    name: "Linux",
+    icon: Redis,
+    name: "Redis",
+    href: "https://redis.io/"
   },
   {
     id: 9,
+    icon: Linux,
+    name: "Linux",
+    href: "https://www.linux.org/"
+  },
+  {
+    id: 10,
     icon: styledComponents,
     name: "Styled Components",
+    href: "https://styled-components.com/"
   },
 
   {
-    id: 10,
+    id: 11,
     icon: tailwindcss,
     name: "TailwindCSS",
-  },
-  {
-    id: 11,
-    icon: npm,
-    name: "Node Package Manager",
+    href: "https://tailwindcss.com/"
   },
   {
     id: 12,
-    icon: git,
-    name: "Git",
+    icon: npm,
+    name: "Node Package Manager",
+    href: "https://www.npmjs.com/"
   },
   {
     id: 13,
-    icon: github,
-    name: "GitHub",
+    icon: git,
+    name: "Git",
+    href: "https://git-scm.com/"
   },
   {
     id: 14,
+    icon: github,
+    name: "GitHub",
+    href: "https://github.com/"
+  },
+  {
+    id: 15,
     icon: vscode,
     name: "Visual Studio Code",
+    href: "https://code.visualstudio.com/"
   },
 ];

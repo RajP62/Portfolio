@@ -17,10 +17,10 @@ function App() {
           <GlobalStyles />
           <Navbar />
           <Home />
-          <Projects />
           <About />
-          <ParallaxComponent />
           <Technologies />
+          <Projects />
+          <ParallaxComponent />
           <Footer />
         </>
       </ThemeProvider>

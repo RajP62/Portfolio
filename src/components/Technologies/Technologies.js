@@ -15,6 +15,7 @@ const Technologies = () => {
       <TechnologiesIcons>
         {iconsData.map((iconData) => {
           return (
+            <a href={iconData.href} target={"_blank"}>
             <TechnologyIcon
               key={iconData.id}
               src={iconData.icon}
@@ -22,6 +23,7 @@ const Technologies = () => {
               title={iconData.name}
               {...iconData}
             />
+            </a>
           );
         })}
       </TechnologiesIcons>

@@ -19,6 +19,7 @@ const ProjectCardComponent = ({
   title,
   codeLink,
   liveLink,
+  techStack
 }) => {
   return (
     <>
@@ -34,7 +35,7 @@ const ProjectCardComponent = ({
               rel="noopener noreferrer"
             >
               <GoMarkGithub />
-              <LinkName>Github Code</LinkName>
+              <LinkName>Github</LinkName>
             </ProjectCodeLink>
             <ProjectLiveLink
               href={liveLink}
@@ -44,6 +45,13 @@ const ProjectCardComponent = ({
               <BiLinkExternal />
               <LinkName>Live</LinkName>
             </ProjectLiveLink>
+            <h4 style={{marginTop:"10px"}}>Tech Stack</h4>
+            <span style={{display: "flex"}}>
+              {techStack.map(el=><p>
+                 {el}||</p>)}
+            </span>
+            {/* <p>Ejs</p> |<p>Tailwindcss</p>|<p>Javascript</p> | <p>Express</p>|<p>Mongodb</p> */}
+
           </ProjectDetails>
         </ProjectCard>
       </IconContext.Provider>

@@ -72,7 +72,7 @@ const Navbar = () => {
             smooth={true}
             duration={0}
             delay={0}
-            spy={true}
+            sp  y={true}
             spyThrottle={0}
             exact="true"
             offset={-85.26}

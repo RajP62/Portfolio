@@ -38,9 +38,10 @@ const About = () => {
           </StyledParagraph>
           <Resume>
             <ResumeLink
-              href={resume}
+              download="Rajesh_paul"
+              href="https://drive.google.com/file/d/1kHyqErb4Db4i38d-TDZcehJKhaP4mnqX/view?usp=sharing"
+              target={'_blank'}
               icon={downloadIcon}
-              download="resume-jericho-bantiquete"
             >
               Download Resume
             </ResumeLink>

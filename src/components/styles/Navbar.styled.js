@@ -39,7 +39,7 @@ export const NavMenuList = styled.ul`
   list-style: none;
   gap: 1.5rem;
   flex: 1;
-  margin-left: 8rem;
+  margin-left: 3rem;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     display: none;

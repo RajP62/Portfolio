@@ -20,7 +20,6 @@ function App() {
           <About />
           <Technologies />
           <Projects />
-          <ParallaxComponent />
           <Footer />
         </>
       </ThemeProvider>

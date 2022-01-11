@@ -8,7 +8,7 @@ export const StyledAbout = styled.section`
 export const AboutContent = styled.div`
   display: flex;
   gap: 5%;
-  margin-top: 6.5rem;
+  margin-left: 50px;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     flex-direction: column;
@@ -56,8 +56,8 @@ export const AboutImageContainer = styled.div`
 `;
 
 export const AboutImage = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 30%;
+  height: 30%;
   object-fit: cover;
   position: relative;
   border-radius: 1px;

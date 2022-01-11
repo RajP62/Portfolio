@@ -31,8 +31,8 @@ export const projectData = [
     image: project3Laptop,
     transitionImage: project3Mobile,
     title: "This is a personal project created for the implementation of Youtube app using Youtube-api",
-    codeLink: "https://github.com/RajP62/Youtube-Api",
-    liveLink: "",
+    codeLink: "https://github.com/RajP62/Youtube-Implementation",
+    liveLink: "https://youtubedashboard.netlify.app/",
     techStack: ["HTML","CSS","Javascript"]
   },
 ]

@@ -10,7 +10,7 @@ import {
 } from "../styles/About.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
-import myImage from "../../assets/my-image.png";
+import myImage from "../../assets/my-image.jpg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
 import resume from "../../assets/resume.pdf";
 
@@ -18,14 +18,13 @@ const About = () => {
   return (
     <StyledAbout id="about">
       <SectionHeading dark="true" mb="3rem">
-        <SectionTitle dark="true" number="02">
+      <SectionTitle dark="true">
           About Me
         </SectionTitle>
       </SectionHeading>
+      
       <AboutContent>
-        <AboutImageContainer>
           <AboutImage src={myImage} />
-        </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
           I am a keen web enthusiast who loves to build complex systems and aspires to be a lead backend developer in the coming years. My journey started when I first wrote "Hello world" for the first time when I was 19 and from there I developed an interest in software development. Apart from that I occasionally learn investing which is my second hobby.
@@ -43,7 +42,7 @@ const About = () => {
               target={'_blank'}
               icon={downloadIcon}
             >
-              Download Resume
+              View Resume
             </ResumeLink>
           </Resume>
         </AboutDetailsContainer>

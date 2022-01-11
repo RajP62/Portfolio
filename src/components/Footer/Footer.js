@@ -18,6 +18,9 @@ import {
 } from "../styles/Footer.styled";
 import { animateScroll as scroll } from "react-scroll";
 
+import {SiLinkedin, SiGithub, SiMinutemailer, SiTwitter} from "react-icons/si"
+import {BsFillArrowUpSquareFill} from "react-icons/bs";
+
 const toTop = () => {
   scroll.scrollToTop({ delay: 0, duration: 0 });
 };
@@ -25,7 +28,7 @@ const toTop = () => {
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <StyledFooter>
+    <StyledFooter id="contactme">
       <FooterSmallTitleWrapper>
         <FooterSmallTitle>get in touch</FooterSmallTitle>
       </FooterSmallTitleWrapper>
@@ -51,21 +54,21 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              <SiGithub/>
             </ContactLink>
             <ContactLink
               href="https://www.linkedin.com/in/rajesh-paul-584a4b1b0/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              LinkedIn
+              <SiLinkedin/>
             </ContactLink>
             <ContactLink
               href="https://twitter.com/RajeshP40409463"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Twitter
+              <SiTwitter/>
             </ContactLink>
           </FooterSocials>
         </FooterContact>
@@ -77,20 +80,16 @@ const Footer = () => {
         </FooterContact>
       </FooterContacts>
 
-      <FooterArrowLine>
-        <FooterLine />
-        <ArrowToTop title="Back to Top" onClick={toTop}></ArrowToTop>
-      </FooterArrowLine>
+      {/* <FooterArrowLine>
+        <ArrowToTop  onClick={toTop}></ArrowToTop>
+      </FooterArrowLine> */}
 
-        <small>
-           Made with ❤️ by{" "}
-          <Small
-            href="https://github.com/monciego"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Rajesh Paul</Small>
-        </small>
+      <FooterLine />
+      <div onClick={toTop} style={{cursor: "pointer",
+      display:"flex", justifyContent:"center", alignItems:"center", textAlign: "center", fontSize: "30px"}}>
+      <BsFillArrowUpSquareFill style={{width: "40px",marginTop:"10px", cursor: "pointer", color: "white"}}/>
+      <a style={{fontSize: "20px"}} onClick={toTop}>Go to top</a>
+      </div>
     </StyledFooter>
   );
 };

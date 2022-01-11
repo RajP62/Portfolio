@@ -9,11 +9,8 @@ const Projects = () => {
   return (
     <StyledProjects id="projects">
       <SectionHeading>
-        <SectionTitle number="01">Projects</SectionTitle>
+      <SectionTitle>Projects</SectionTitle>
       </SectionHeading>
-      <StyledParagraph dark="true" textAlign="center">
-        Selected projects I've worked on recently.{" "}
-      </StyledParagraph>
       <ProjectsContainer>
         {projectData.map((project) => {
           return <ProjectCardComponent key={project.id} {...project} />;

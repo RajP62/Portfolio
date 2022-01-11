@@ -54,20 +54,6 @@ const Navbar = () => {
         </NavList>
         <NavList>
           <StyledNavLinks
-            to="projects"
-            smooth={true}
-            duration={0}
-            delay={0}
-            spy={true}
-            spyThrottle={0}
-            exact="true"
-            offset={-85.26}
-          >
-            Projects
-          </StyledNavLinks>
-        </NavList>
-        <NavList>
-          <StyledNavLinks
             to="about"
             smooth={true}
             duration={0}
@@ -82,7 +68,7 @@ const Navbar = () => {
         </NavList>
         <NavList>
           <StyledNavLinks
-            to="playground"
+            to="skills"
             smooth={true}
             duration={0}
             delay={0}
@@ -91,7 +77,35 @@ const Navbar = () => {
             exact="true"
             offset={-85.26}
           >
-            Playground
+            Skills
+          </StyledNavLinks>
+        </NavList>
+        <NavList>
+          <StyledNavLinks
+            to="projects"
+            smooth={true}
+            duration={0}
+            delay={0}
+            spy={true}
+            spyThrottle={0}
+            exact="true"
+            offset={-85.26}
+          >
+            Projects
+          </StyledNavLinks>
+        </NavList>
+        <NavList>
+          <StyledNavLinks
+            to="contactme"
+            smooth={true}
+            duration={0}
+            delay={0}
+            spy={true}
+            spyThrottle={0}
+            exact="true"
+            offset={-85.26}
+          >
+            Contact me
           </StyledNavLinks>
         </NavList>
       </NavMenuList>

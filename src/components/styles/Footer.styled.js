@@ -45,7 +45,7 @@ export const FooterBigLinkContainer = styled.div`
 `;
 
 export const FooterBigLink = styled.a`
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 800;
   position: relative;
   width: 100%;
@@ -87,8 +87,9 @@ export const FooterBigLink = styled.a`
 
 export const FooterContacts = styled.div`
   display: flex;
+  justify-content: center;
   margin-top: 8rem;
-  gap: 5rem;
+  gap: 10rem;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     flex-direction: column;
@@ -149,7 +150,7 @@ export const ContactHeader = styled.p`
 
 export const ContactLink = styled.a`
   font-size: 1.2rem;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   color: #8c8c8c;
   transition: 0.3s ease;
   position: relative;
@@ -185,7 +186,7 @@ export const ContactLink = styled.a`
 
 export const FooterSocials = styled.span`
   display: flex;
-  gap: 0.85rem;
+  gap: 1.5rem;
 `;
 
 export const FooterArrowLine = styled.div`
@@ -209,8 +210,6 @@ export const ArrowToTop = styled.div`
   background-position: center center;
   background-size: 10px 16px;
   position: absolute;
-  right: 0;
-  transition: 0.3s ease;
   cursor: pointer;
 
   &:hover {
@@ -275,4 +274,5 @@ export const Copyright = styled.div`
   }
 `;
 
-export const Small = styled.a``;
+export const Small = styled.a`
+`;

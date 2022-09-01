@@ -38,7 +38,7 @@ const About = () => {
           <Resume>
             <ResumeLink
               download="Rajesh_paul"
-              href="https://drive.google.com/file/d/1kHyqErb4Db4i38d-TDZcehJKhaP4mnqX/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ItniaPhK9TwtD-Y4-emZHJfZUdJupxtM/view?usp=sharing"
               target={'_blank'}
               icon={downloadIcon}
             >

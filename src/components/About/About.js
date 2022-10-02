@@ -12,7 +12,7 @@ import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
 import myImage from "../../assets/my-image.jpg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-import resume from "../../assets/resume.pdf";
+import Resume_Rajesh_Paul from "../../assets/resume_rajesh_paul.pdf";
 
 const About = () => {
   return (
@@ -36,9 +36,9 @@ const About = () => {
             My leisure interests: Apart from this I like travelling and playing chess. I also like to keep myself updated with current affairs and technology.
           </StyledParagraph>
           <Resume>
-            <ResumeLink
-              download="Rajesh_paul"
-              href="https://drive.google.com/file/d/1UPonoiEY40EU51Y2JhtReVQvwOkfp6N3/view?usp=sharing"
+            <ResumeLink 
+              download="Resume_Rajesh_Paul"
+              href={Resume_Rajesh_Paul}
               target={'_blank'}
               icon={downloadIcon}
             >
